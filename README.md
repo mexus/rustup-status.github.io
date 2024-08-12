@@ -18,7 +18,7 @@ Machine-readable information on the latest availability can be fetched on a
 *per-component-per-target* basis, i.e.
 `https://rust-lang.github.io/rustup-components-history/$target/$package` where `$target` stands for
 a target host architecture, like `x86_64-unknown-linux-gnu`, and `$package` stands for a package
-name, like `rls` or `rust-src`. For example, getting the date when `miri` was available for the last
+name, like `miri` or `rust-src`. For example, getting the date when `miri` was available for the last
 time on `x86_64-apple-darwin` is as simple as running the following command:
 
 ```

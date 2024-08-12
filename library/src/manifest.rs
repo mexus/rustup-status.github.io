@@ -97,9 +97,6 @@ available = false
 [pkg.rustfmt-preview.target.x86_64-unknown-linux-gnu]
 available = true
 
-[renames.rls]
-to = "rls-preview"
-
 [renames.rustfmt]
 to = "rustfmt-preview"
 "#;
@@ -153,12 +150,6 @@ to = "rustfmt-preview"
             .into_iter()
             .collect(),
             renames: vec![
-                (
-                    "rls".to_string(),
-                    Rename {
-                        to: "rls-preview".to_string(),
-                    },
-                ),
                 (
                     "rustfmt".to_string(),
                     Rename {
