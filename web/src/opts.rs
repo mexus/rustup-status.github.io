@@ -72,7 +72,7 @@ pub struct Config {
     /// will generate a set of files under a given *output* directory with the
     /// following pattern: file_tree_output/$target/$package, where $target
     /// stands for a target host architecture, like x86_64-unknown-linux-gnu,
-    /// and $package stands for a package name, like rls or rust-src. Each of
+    /// and $package stands for a package name, like miri or rust-src. Each of
     /// those files will contain a date in a "%Y-%m-%d" format (e.g. 2019-12-24)
     /// which represents the latest date when the package was (is) available for
     /// that specific target.
